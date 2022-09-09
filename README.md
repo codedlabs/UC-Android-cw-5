@@ -24,11 +24,11 @@
   2) نقوم بإنشاء متغير مصفوفة <ArrayList<Items
   3) نقوم بإنشاء Constructor -> نضغط على علامة اللمبة ونحط على قبل الأخيرة
   4) داخل الـ Constructor نضع قيمة مصفوفة الـ ItemAdapter التي انشئناها تساوي قيمة المصفوفة التي بداخل الـ Constructor
-  5)1.	داخل onCreateViewHolder نقوم بإنشاء View
-2.	داخل onBindViewHolder نربطه بالعناصر ملف XML اللي سوينا فيه التصميم
-3.	ننشئ كلاس داخلي ViewHolder
-4.	نربط العناصر الموجودة في الـ XMLداخل هذا الكلاس
-5.	نربط الـ Adapter بالـ RecylerView عن طريق
+  5) داخل onCreateViewHolder نقوم بإنشاء View
+  6) داخل onBindViewHolder نربطه بالعناصر ملف XML اللي سوينا فيه التصميم
+  7) ننشئ كلاس داخلي ViewHolder
+  8) نربط العناصر الموجودة في الـ XMLداخل هذا الكلاس
+  9) نربط الـ Adapter بالـ RecylerView عن طريق
 
   ```Java
   RecyclerView phonelist = findViewById(R.id.rv);
